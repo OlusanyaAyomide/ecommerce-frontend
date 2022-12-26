@@ -10,8 +10,8 @@ import { reviewactions } from './reviewslice'
 
 
 
-const host = "http://127.0.0.1:8000"
-// const host = "https://ecommerce.pythonanywhere.com/"
+// const host = "http://127.0.0.1:8000"
+const host = "https://ecommerce.pythonanywhere.com/"
 
 export function Latestfetch() {
     let status = 0
