@@ -206,9 +206,9 @@ export function ProductList(prop){
   // 
   return(
     <div className=" w-6/12 md:w-4/12 lg:w-3/12 mb-3 ">
-    <div className=' '>
+    <div className=''>
       <div className='mx-2 '>
-      <Link to="/detail" state={{from:prop.items}}><div className='h-[160px] w-full dark-cover relative  rounded-[10%] overflow-hidden'>
+      <Link to="/detail" state={{from:prop.items}}><div className='dark-cover h-[140px] w-full before:bg-black/20 md:before:bg-transparent relative rounded-[10%] overflow-hidden'>
           <img src={prop.url} alt="image" className="cover-image"/>
         </div>
         </Link>

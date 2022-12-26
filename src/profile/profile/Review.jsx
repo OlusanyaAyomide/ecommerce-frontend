@@ -52,7 +52,7 @@ export default function Review() {
     }
     
   return (
-    <motion.section className='fixed top-16 w-full bg-black/60 px-8 md:px-12 lg:px-15 py-4 z-30 h-[100vh]' variants={Popup} initial="initial" animate="animate">
+    <motion.section className='absolute top-16 w-full bg-black/60 h-full px-8 md:px-12 lg:px-15 py-4 z-30' variants={Popup} initial="initial" animate="animate">
         <div className='bg-white rounded-xl md:w-8/12 relative w-full mx-auto '>
             <div className=' '>
               <img src={Product.url} alt="" className="cover-image h-[250px]"/>
